@@ -1,19 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:islamic_demo/home/Quran/quran_tab.dart';
 import 'package:islamic_demo/home/Radio_Tab.dart';
 import 'package:islamic_demo/home/hadeth_tab.dart';
-import 'package:islamic_demo/home/quran_tab.dart';
 import 'package:islamic_demo/home/sebha_tab.dart';
 
 class HomeScreen extends StatefulWidget {
   static const String routeName = '';
-
   @override
   State<HomeScreen> createState() => _HomeScreenState();
 }
-
 class _HomeScreenState extends State<HomeScreen> {
   int selectedIndex = 0;
-
   @override
   Widget build(BuildContext context) {
     return Stack(children: [
@@ -30,9 +27,7 @@ class _HomeScreenState extends State<HomeScreen> {
           centerTitle: true,
           title: Text(
             'Islami',
-            style: TextStyle(
-                color: Colors.black, fontSize: 30, fontWeight: FontWeight.bold),
-          ),
+              style: Theme.of(context).textTheme.headline1),
         ),
         bottomNavigationBar: Theme(
           data: Theme.of(context)
