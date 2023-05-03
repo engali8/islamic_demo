@@ -128,7 +128,7 @@ class QuranTab extends StatelessWidget {
           Image.asset('assets/images/quran_header_image.png'),
           Divider(
             color: MyThemeData.lightPrimary,
-            thickness: 2,
+            thickness: 6,
           ),
           Text(
             'Sura name',
@@ -136,13 +136,13 @@ class QuranTab extends StatelessWidget {
           ),
           Divider(
             color: MyThemeData.lightPrimary,
-            thickness: 2,
+            thickness: 6,
           ),
           Expanded(
             child: ListView.separated(
               itemCount: names.length,
               itemBuilder: (context, index) {
-                return SuraName(text: names[index]);
+                return SuraName(name: names[index], index: index);
               },
               separatorBuilder: (context, index) {
                 return Divider(
