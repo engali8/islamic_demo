@@ -5,6 +5,11 @@
 "sebha" : "Sebha",
 "radio": "Radio",
 "sura_name" : "Sura Name",
-"haeth_name" : "Hadeth Name",
-"language" : "language"
+"hadeth_name" : "Hadeth Name",
+"language" : "language",
+"english" : "english",
+"arabic":"arabic",
+"light":"light",
+"dark": "dark",
+"theming":"theming"
 }

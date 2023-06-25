@@ -26,7 +26,7 @@ class _HadethTabState extends State<HadethTab> {
           thickness: 6,
         ),
         Text(
-          AppLocalizations.of(context)!.haeth_name,
+          AppLocalizations.of(context)!.hadeth_name,
           style: Theme.of(context).textTheme.subtitle1,
         ),
         Divider(

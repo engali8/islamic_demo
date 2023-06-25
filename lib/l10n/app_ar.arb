@@ -5,6 +5,11 @@
 "sebha" : "سبحة",
 "radio": "الاذاعة",
 "sura_name" : "اسم الصورة",
-"haeth_name" : "اسم الحديث",
-"language" : " اللغة"
+"hadeth_name" : "اسم الحديث",
+"language" : " اللغة",
+"english" : "الانجليزية",
+"arabic":"العربية",
+"light":"مضيى",
+"dark": "ليلي",
+"theming":"المظهر"
 }

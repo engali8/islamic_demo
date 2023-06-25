@@ -20,7 +20,8 @@ class MyThemeData {
 /// text theme
       textTheme: TextTheme(
         headline1: TextStyle(color: Colors.black,fontSize: 30, fontWeight: FontWeight.bold),
-        subtitle1: TextStyle(fontSize: 25, fontWeight: FontWeight.w500),
+        headline2:TextStyle(color: colorWhite,fontSize: 25, fontWeight: FontWeight.bold),
+        subtitle1: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
         subtitle2: TextStyle(fontSize: 25, fontWeight: FontWeight.w500),
         overline: TextStyle(color: Colors.black,fontSize: 25, fontWeight: FontWeight.bold),
         bodyText1: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
